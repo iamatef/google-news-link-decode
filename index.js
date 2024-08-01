@@ -147,9 +147,8 @@ const decodeGoogleNewsUrl = (sourceUrl) => __awaiter(void 0, void 0, void 0, fun
     }
 });
 exports.decodeGoogleNewsUrl = decodeGoogleNewsUrl;
-//imediately invoked function expression
-(() => __awaiter(void 0, void 0, void 0, function* () {
-    //decodeGoogleNewsUrl https://news.google.com/rss/articles/CBMiuwFBVV95cUxONmktU0JmbDV4dFJJTUxZQ3NObVg3Slh3VjB4cUZuN1lxQUNsdWlWYmpYSGNPM3hwNU5aaWw0b1ZMX040TTNvS3BhUjFZd21GaHZkaFlPQlpQTlFLdFZIUzNlSTMwVExmNUtHV1JxSE9qT1JDekZiMTdzUUpJR09QbUFMZTdxcDVEeWI4N3VhaGZXRm9ZYVRBaEJZRHVpYVJOQm8wNnphVzFCSjdTRWwxbV9SakJ6S3VsTE9N?oc=5
-    const link = yield (0, exports.decodeGoogleNewsUrl)('https://news.google.com/rss/articles/CBMiuwFBVV95cUxONmktU0JmbDV4dFJJTUxZQ3NObVg3Slh3VjB4cUZuN1lxQUNsdWlWYmpYSGNPM3hwNU5aaWw0b1ZMX040TTNvS3BhUjFZd21GaHZkaFlPQlpQTlFLdFZIUzNlSTMwVExmNUtHV1JxSE9qT1JDekZiMTdzUUpJR09QbUFMZTdxcDVEeWI4N3VhaGZXRm9ZYVRBaEJZRHVpYVJOQm8wNnphVzFCSjdTRWwxbV9SakJ6S3VsTE9N?oc=5');
-    console.log(link);
-}))();
+module.exports = function (url) {
+    return __awaiter(this, void 0, void 0, function* () {
+        return yield (0, exports.decodeGoogleNewsUrl)(url);
+    });
+};

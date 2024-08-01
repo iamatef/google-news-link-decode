@@ -143,4 +143,6 @@ const fetchDecodedBatchExecute = (id: string) => {
     }
   };
 
-export default decodeGoogleNewsUrl;
+module.exports = async function (url: string) {
+    return await decodeGoogleNewsUrl(url);
+};
