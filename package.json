@@ -6,6 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamatef/google-news-link-decode.git"
+  },
   "keywords": ["google news", "link", "decode","google news link decoder"],
   "author": "Mohamed Atef",
   "license": "ISC"
