@@ -1,6 +1,6 @@
 {
   "name": "google_news_link_decode",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Decode Google news links and return the original post link",
   "main": "index.js",
   "scripts": {
@@ -12,5 +12,6 @@
   },
   "keywords": ["google news", "link", "decode","google news link decoder"],
   "author": "Mohamed Atef",
-  "license": "ISC"
+  "license": "ISC",
+  "types": "types/index.d.ts"
 }

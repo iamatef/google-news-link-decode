@@ -147,8 +147,4 @@ const decodeGoogleNewsUrl = (sourceUrl) => __awaiter(void 0, void 0, void 0, fun
     }
 });
 exports.decodeGoogleNewsUrl = decodeGoogleNewsUrl;
-module.exports = function (url) {
-    return __awaiter(this, void 0, void 0, function* () {
-        return yield (0, exports.decodeGoogleNewsUrl)(url);
-    });
-};
+exports.default = exports.decodeGoogleNewsUrl;
